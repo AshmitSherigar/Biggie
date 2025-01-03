@@ -1,0 +1,8 @@
+.profile-box{
+    height: 150vh;
+    width: 59vw;
+    background-color: rgb(233, 229, 229);
+    /* align-self: center ; */
+    justify-self: center;
+    
+}
