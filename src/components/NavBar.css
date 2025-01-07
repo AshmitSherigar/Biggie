@@ -2,4 +2,47 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 15px;
+}
+.accounts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
+.rotateUp{
+    transform: rotate(-180deg);
+}
+#icon{
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+
+
+
+.nav-options{
+    background-color: red;
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    padding: 10px;
+    top: 7%;
+    right: 20.7%;
+    display: flex;
+    /* align-items: center ; */
+    justify-content: space-between;
+    flex-direction: column;
+    opacity: 0;
+}
+.nav-options h2{
+    font-weight: 100;
+    font-size: 17px;
 }
